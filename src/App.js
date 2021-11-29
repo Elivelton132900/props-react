@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Comentarios from "./Components/Comentarios/Comentarios";
+import Approval from "./Components/Approval/Approval"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Approval>
+        <Comentarios nome="Alex" data="ontem às 07:58 AM" comentario="Bom post" />
+      </Approval>
+
+      <Approval>
+        <Comentarios nome="Dom" data="ontem às 20:58 PM" comentario="Post objetivo e simples de entender, parabéns" />
+      </Approval>
+
     </div>
   );
 }

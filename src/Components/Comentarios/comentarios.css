@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    min-width: 300px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.img {
+    height: 80px;
+    width: 80px;
+}
+
+.nomeData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.nomeData .autor {
+    font-weight: bold;
+}
+
+.nomeData span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.coment p {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+}
